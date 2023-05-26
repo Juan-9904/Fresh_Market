@@ -1,36 +1,51 @@
 /* Estilos para el navbar */
-.navbar {
-    background-color: #48da3a;
-  }
-  
-  .navbar .navbar-brand {
-    font-size: 1.5rem;
-  }
-  
-  .navbar .nav-link {
-    color: #fff;
-    font-size: 1rem;
-  }
-  
-  /* Estilos para la sección "About Us" */
-  footer .col-md-4 h5 {
-    color: #fff;
-    font-size: 1.2rem;
-  }
-  
-  footer .col-md-4 p {
-    color: #ccc;
-    font-size: 0.9rem;
-  }
-  
-  /* Estilos para el carousel */
-  #slide .carousel-item {
-    height: 400px; /* Ajusta la altura según tus necesidades */
-  }
-  
-  #slide .carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+.navbar.navbar-dark.bg-dark {
+  background-color: #006400 !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Estilos para el container de descripción */
+#description {
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+}
+
+#description .container {
+  color: #fff;
+  font-family: 'Cookie', cursive;
+}
+
+/* Estilos para el footer */
+footer.bg-dark {
+  background-color: #568203 !important;
+}
+
+footer .col-md-4 h5 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+footer .col-md-4 p {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Estilos para el carousel */
+#carousel .carousel-item {
+  height: 400px; /* Ajusta la altura según tus necesidades */
+}
+
+#carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
